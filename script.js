@@ -14,6 +14,7 @@ class Animal {
       this.color = color;
     }
     makeSound() {
+
       super.makeSound();
       console.log(`Color: ${this.color}`);
     }
@@ -21,6 +22,6 @@ class Animal {
   // here we create an instance of the Dog class
   const dog = new Dog('Dog', 'Woof woof!', 'grey');
   
-  // here, we make the dog make its sound
+  // here, so that the dog can make a sound
   dog.makeSound();
   
